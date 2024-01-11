@@ -64,7 +64,7 @@ model2.loc['mae_with_validation'] = mae_with_validation
 model_son = pd.concat([model1, model2], axis=1)
 
 ##########################
-## STATSMODEL ILE TAHMIN ##
+## STATSMODELS ILE TAHMIN ##
 ##########################
 # Statsmodels kütüphanesini içe aktarıyoruz.
 import statsmodels.api as sm
