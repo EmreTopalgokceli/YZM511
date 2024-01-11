@@ -106,7 +106,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Test verileri üzerinde tahminler yaparak test hatasını hesaplayın.
 
-# Modelin test hatası ile birlikte katsayılarını içeren bir veri çerçevesi oluşturun.
+# Modelin test hatası ile birlikte katsayılarını içeren bir veri çerçevesi oluşturun. Karislastirma yaparak yorumlayiniz.
 
 
 # İpuçular:
