@@ -62,8 +62,8 @@ from sklearn.linear_model import LogisticRegression
 # LOG REG nesnemizi cagiralim
 log_reg = LogisticRegression()
 log_reg.fit(X_train, y_train)   # Log reg'i kullanarak X_train ve y_train verisindeki oruntuleri ogren diyoruz
-log_reg_pred = log_reg.predict(X_test) # Ogrendigin oruntuyu getir, ki bu model oluyor, ve su hic X_test veri setinde tahmin yap diyoruz.
-log_reg_accuracy = accuracy_score(y_test, log_reg_pred) # Modelin hic gormedigi veri seti uzerindeki performansi
+log_reg_pred = log_reg.predict(X_test) # Ogrendigin oruntuyu getir, ki bu model oluyor, ve su daha once gormedigin X_test veri setini kullanarak tahmin yap diyoruz.
+log_reg_accuracy = accuracy_score(y_test, log_reg_pred) # Modelin gormedigi veri seti uzerindeki performansi
 
 
 # Decision Tree Modeli
